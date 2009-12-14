@@ -1,0 +1,10 @@
+# imports functions
+#importFrom(mvtnorm,rmvnorm)
+#import(boot)
+
+# functions
+#export(AICpls                    ) 
+ 
+
+## S3 methods for generics in base
+#S3method("print", "plsRmodel")
