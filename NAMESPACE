@@ -1,9 +1,15 @@
 # imports functions
-#importFrom(mvtnorm,rmvnorm)
+#importFrom(base,mean)
+#importFrom(stats,sd)
 #import(boot)
 
 # functions
-#export(AICpls                    ) 
+export(cvar) 
+export(eta2) 
+export(panel.hist) 
+export(poi.ci) 
+export(binom.ci) 
+export(plotcdf2) 
  
 
 ## S3 methods for generics in base
