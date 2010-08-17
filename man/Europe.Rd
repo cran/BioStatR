@@ -5,7 +5,7 @@
 \description{
 This dataset provide mean weekly cumulated work durations for several European countries.
 }
-\usage{data(Mesures)}
+\usage{Europe}
 \format{
   A data frame with 25 observations on the following 2 variables.
   \describe{

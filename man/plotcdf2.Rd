@@ -7,7 +7,7 @@ Représentation bivariée des variables discrètes ou des variables continues group
 Cette fonction construit un stéréogramme permettant de juger de l'association entre deux variables discrètes ou groupées en classes.
 }
 \usage{
-plotcdf2(x, y, f, xaxe, yaxe)
+plotcdf2(x, y, f, xaxe, yaxe, col=NULL, border=FALSE, Nxy=200, theme="0")
 }
 \arguments{
   \item{x}{Valeurs observées ou modalités de la première variable discrète}
@@ -15,6 +15,10 @@ plotcdf2(x, y, f, xaxe, yaxe)
   \item{f}{Si \code{f=0} (donc \code{length(f)=0}), \code{x} et \code{y} sont deux séries statistiques. Si \code{length(f)>1}, f est un tableau de fréquences et \code{x} et \code{y} les noms des lignes et des colonnes de \code{f}.}
   \item{xaxe}{Nom de l'axe des abscisses}
   \item{yaxe}{Nom de l'axe des ordonnées}
+  \item{col}{Couleur du stéréogramme}
+  \item{border}{Le maillage du graphique doit-il être affiché ?}
+  \item{Nxy}{Pas du maillage pour chaque axe}
+  \item{theme}{Le thème détermine la palette de couleurs utilisées. Il y a quatre choix possibles en couleurs "0", "1", "2", "3" et un en nuances de gris "bw"}
 }
 \value{Un stéréogramme des deux séries statistiques groupées ou des deux variables discrètes étudiées.}
 \references{F. Bertrand, M. Maumy-Bertrand, Initiation à la Statistique avec R, Dunod, 2010.}
@@ -31,7 +35,7 @@ yy=c(75,70,70,60,90,92,75,68,71,87)
 plotcdf2(xx,yy,f=0,"taille en m","poids en kg")
 
 xx=seq(2,12)
-yy=seq(1,6)
+yy=seq(1,6)                 
 p=c(1/36,0,0,0,0,0,
 2/36,0,0,0,0,0,
 2/36,1/36,0,0,0,0,

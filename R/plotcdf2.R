@@ -1,4 +1,4 @@
-plotcdf2 <- function(x,y,f,xaxe,yaxe)
+plotcdf2 <- function(x,y,f,xaxe,yaxe,col=NULL,border=FALSE,Nxy=200,theme="0")
 {
 if (length(f)>1)
 {
@@ -22,8 +22,8 @@ for (j in 2:l){
 F[i,j]=f[i,j]+F[i-1,j]+F[i,j-1]-F[i-1,j-1]
 }
 }
-deltax=(max(xi)-min(xi))/200
-deltay=(max(yj)-min(yj))/200
+deltax=(max(xi)-min(xi))/Nxy
+deltay=(max(yj)-min(yj))/Nxy
 x=seq(min(xi)-deltax,max(xi)+deltax,deltax)
 y=seq(min(yj)-deltay,max(yj)+deltay,deltay)
 n1=length(x)
@@ -41,6 +41,24 @@ if (sum(i1) < k & sum(i2) < l & sum(i1) > 0 & sum(i2) > 0)
 {z[i,j]=F[sum(i1),sum(i2)]}
 }
 }
-persp(x,y,z,theta=-30,phi=15,col="red",shade=0.1,main="Stéréogramme des deux variables",xlab=xaxe,ylab=yaxe,zlab="",
-cex.axis=0.75,ticktype="detailed")
+
+if(is.null(col)){
+nrz <- nrow(z)
+ncz <- ncol(z)
+jet.colors <- colorRampPalette(c("blue","red"))
+if(theme=="1"){jet.colors <- colorRampPalette(c("#BDFF00","#FF00BD","#00BDFF"))}
+if(theme=="2"){jet.colors <- colorRampPalette(c("#FF8400","#8400FF","#00FF84"))}
+if(theme=="3"){jet.colors <- colorRampPalette(c("#84FF00","#FF0084","#0084FF"))}
+if(theme=="bw"){jet.colors <- function(nbcols){gray(seq(.1,.9,length.out=nbcols))}}
+                                                                
+nbcol <- 100
+color <- jet.colors(nbcol)
+zfacet <- z[-1, -1] + z[-1, -ncz] + z[-nrz, -1] + z[-nrz, -ncz]
+facetcol <- cut(zfacet, nbcol)
+persp(x,y,z,theta=-30,phi=15,col=color[facetcol],shade=0.15,main="Stéréogramme des deux variables",xlab=xaxe,ylab=yaxe,zlab="",
+cex.axis=0.75,ticktype="detailed",border=border)
+} else {
+persp(x,y,z,theta=-30,phi=15,col=col,shade=0.15,main="Stéréogramme des deux variables",xlab=xaxe,ylab=yaxe,zlab="",
+cex.axis=0.75,ticktype="detailed",border=border)
+}
 }

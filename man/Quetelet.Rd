@@ -5,7 +5,7 @@
 \description{
 This dataset provide heights and masses for computing biomass indices.
 }
-\usage{data(Mesures)}
+\usage{Quetelet}
 \format{
   A data frame with 66 observations on the following 3 variables.
   \describe{

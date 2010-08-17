@@ -1,8 +1,3 @@
-# imports functions
-#importFrom(base,mean)
-#importFrom(stats,sd)
-#import(boot)
-
 # functions
 export(cvar) 
 export(eta2) 
@@ -10,7 +5,3 @@ export(panel.hist)
 export(poi.ci) 
 export(binom.ci) 
 export(plotcdf2) 
- 
-
-## S3 methods for generics in base
-#S3method("print", "plsRmodel")

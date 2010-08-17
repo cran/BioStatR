@@ -5,7 +5,6 @@
 \description{
 This dataset measurements of several features of the fruits of small trees such as their mass or their length.
 }
-\usage{data(Mesures5)}
 \usage{Mesures5}
 \format{
   A data frame with 252 observations on the following 5 variables.
