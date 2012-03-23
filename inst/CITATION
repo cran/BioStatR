@@ -27,7 +27,7 @@ citEntry(entry="Book",
          year         = 2010,
          url          = "http://www-irma.u-strasbg.fr/~fbertran/BioStatR/",
          textVersion = 
-         paste("Frédéric Bertrand and Myriam Maumy-Bertrand (",year ,"). ", 
-               titl, publishe, ".", sep=""
+         paste("Frédéric Bertrand and Myriam Maumy-Bertrand (", year ,"). ", 
+               titl, ", ", publishe, ".", sep=""
                )
 )
