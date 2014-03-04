@@ -4,8 +4,8 @@ plotcdf2 <- function (x, y, f, xaxe, yaxe, col = NULL, border = FALSE, Nxy = 200
     if (length(f) > 1) {
         xi = sort(x)
         yj = sort(y)
-        k = length(x)-1
-        l = length(y)-1
+        k = length(x)
+        l = length(y)
     }
     else {
         xi = as.numeric(levels(as.factor(x)))
