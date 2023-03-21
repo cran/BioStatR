@@ -1,8 +1,8 @@
 Package: BioStatR
 Type: Package
 Title: Initiation à La Statistique Avec R
-Version: 4.0.0
-Date: 2022-11-28
+Version: 4.0.1
+Date: 2023-03-21
 Depends: R (>= 2.10)
 Imports: ggplot2
 Authors@R: c(
@@ -11,7 +11,7 @@ Authors@R: c(
 Author: Frederic Bertrand [cre, aut] (<https://orcid.org/0000-0002-0837-8281>),
   Myriam Maumy-Bertrand [aut] (<https://orcid.org/0000-0002-4615-1512>)
 Maintainer: Frederic Bertrand <frederic.bertrand@utt.fr>
-Description: Datasets and functions for the book "Initiation à la Statistique avec R", F. Bertrand and M. Maumy-Bertrand (2022, ISBN:978-2100782826 Dunod, 4ème edition).
+Description: Datasets and functions for the book "Initiation à la Statistique avec R", F. Bertrand and M. Maumy-Bertrand (2022, ISBN:978-2100782826 Dunod, fourth edition).
 LazyLoad: yes
 LazyData: yes
 License: GPL-3
@@ -22,6 +22,6 @@ URL: https://fbertran.github.io/BioStatR/,
 BugReports: https://github.com/fbertran/BioStatR/issues/
 RoxygenNote: 7.2.1
 NeedsCompilation: no
-Packaged: 2022-11-28 09:38:18 UTC; fbertran
+Packaged: 2023-03-21 14:26:34 UTC; fbertran
 Repository: CRAN
-Date/Publication: 2022-11-28 12:50:02 UTC
+Date/Publication: 2023-03-21 15:10:02 UTC
