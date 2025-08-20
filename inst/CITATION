@@ -12,7 +12,7 @@ bibentry(bibtype="Manual",
                     person(given = "Myriam", family= "Maumy-Bertrand")),
          year         = year,
          note         = vers,
-         url          = "http://www-irma.u-strasbg.fr/~fbertran/BioStatR",
+         url          = "https://CRAN.R-project.org/package=BioStatR",
          textVersion = 
          paste("Frédéric Bertrand and Myriam Maumy-Bertrand (",year ,"). ", 
                titl, ", ", vers, ".", sep=""
@@ -26,7 +26,7 @@ bibentry(bibtype="Book",
                     person(given = "Myriam", family= "Maumy-Bertrand")),
 	 publisher = "Dunod, Paris",
          year         = 2023,
-         url          = "http://www-irma.u-strasbg.fr/~fbertran/BioStatR/",
+         url          = "https://fbertran.github.io/homepage/",
          textVersion = 
          paste("Frédéric Bertrand and Myriam Maumy-Bertrand (", year ,"). ", 
                titl, ", ", edition,", ", publishe, ".", sep=""

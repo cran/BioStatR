@@ -1,3 +1,7 @@
+# BioStatR 4.0.2
+
+* A suggest field fix to cope with CRAN requirements about the use of packages in demos.
+
 # BioStatR 4.0.1
 
 * Update links to the webpage of the 4th edition of the book of the package. Update cover page image of the book. Update demo code. A few code fixes to cope with new CRAN requirements.

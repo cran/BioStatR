@@ -9,9 +9,9 @@
 #' @param y Un facteur associé à la variable qualitative
 #' @return \item{num}{La valeur du rapport de corrélation empirique}
 #' @author Frédéric Bertrand\cr \email{frederic.bertrand@@utt.fr}\cr
-#' \url{http://www-irma.u-strasbg.fr/~fbertran/}\cr 
+#' \url{https://fbertran.github.io/homepage/}\cr 
 #' Maumy-Bertrand\cr \email{myriam.maumy@@utt.fr}\cr
-#' \url{http://www-irma.u-strasbg.fr/~mmaumy/}
+#' \url{https://www.ehesp.fr/annuaire/enseignement-recherche/myriam-maumy/}
 #' @references F. Bertrand, M. Maumy-Bertrand, Initiation à la Statistique avec
 #' R, Dunod, 4ème édition, 2023.
 #' @keywords univar

@@ -25,9 +25,9 @@
 #' ainsi que son ordonnée à l'origine et sa pente si le tracé de celle-ci est
 #' demandé.}
 #' @author Frédéric Bertrand\cr \email{frederic.bertrand@@utt.fr}\cr
-#' \url{http://www-irma.u-strasbg.fr/~fbertran/}\cr 
+#' \url{https://fbertran.github.io/homepage/}\cr 
 #' Maumy-Bertrand\cr \email{myriam.maumy@@utt.fr}\cr
-#' \url{http://www-irma.u-strasbg.fr/~mmaumy/}
+#' \url{https://www.ehesp.fr/annuaire/enseignement-recherche/myriam-maumy/}
 #' @seealso \code{\link{qqplot}}, \code{\link{qqline}}
 #' @references F. Bertrand, M. Maumy-Bertrand, Initiation à la Statistique avec
 #' R, Dunod, 3e, 2018.

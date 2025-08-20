@@ -33,8 +33,8 @@ R, Dunod, 4ème édition, 2023.
 }
 \author{
 Frédéric Bertrand\cr \email{frederic.bertrand@utt.fr}\cr
-\url{http://www-irma.u-strasbg.fr/~fbertran/}\cr 
+\url{https://fbertran.github.io/homepage/}\cr 
 Maumy-Bertrand\cr \email{myriam.maumy@utt.fr}\cr
-\url{http://www-irma.u-strasbg.fr/~mmaumy/}
+\url{https://www.ehesp.fr/annuaire/enseignement-recherche/myriam-maumy/}
 }
 \keyword{univar}

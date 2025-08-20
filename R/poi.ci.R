@@ -7,9 +7,9 @@
 #' @param conf.level Niveau de confiance de l'intervalle
 #' @return \item{matrix}{Limites des intervalles de confiance demandés.}
 #' @author Frédéric Bertrand\cr \email{frederic.bertrand@@utt.fr}\cr
-#' \url{http://www-irma.u-strasbg.fr/~fbertran/}\cr 
+#' \url{https://fbertran.github.io/homepage/}\cr 
 #' Maumy-Bertrand\cr \email{myriam.maumy@@utt.fr}\cr
-#' \url{http://www-irma.u-strasbg.fr/~mmaumy/}
+#' \url{https://www.ehesp.fr/annuaire/enseignement-recherche/myriam-maumy/}
 #' @seealso \code{\link{binom.test}}, \code{\link{binom.ci}},
 #' \code{\link{poi.ci}}
 #' @references F. Bertrand, M. Maumy-Bertrand, Initiation à la Statistique avec
