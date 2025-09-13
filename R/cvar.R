@@ -7,7 +7,7 @@
 #' 
 #' @param x Un vecteur numérique
 #' @return \item{num}{Valeur du coefficient de variation exprimé en pourcents}
-#' @author Frédéric Bertrand\cr \email{frederic.bertrand@@utt.fr}\cr
+#' @author Frédéric Bertrand\cr \email{frederic.bertrand@@lecnam.net}\cr
 #' \url{https://fbertran.github.io/homepage/}\cr 
 #' Maumy-Bertrand\cr \email{myriam.maumy@@utt.fr}\cr
 #' \url{https://www.ehesp.fr/annuaire/enseignement-recherche/myriam-maumy/}

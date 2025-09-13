@@ -1,3 +1,9 @@
+# BioStatR 4.1.0
+
+* Maintainer email update
+* Added unit tests
+* Added package doi
+
 # BioStatR 4.0.2
 
 * A suggest field fix to cope with CRAN requirements about the use of packages in demos.

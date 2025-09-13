@@ -6,7 +6,7 @@
 #' @param x Un vecteur de données
 #' @param conf.level Niveau de confiance de l'intervalle
 #' @return \item{matrix}{Limites des intervalles de confiance demandés.}
-#' @author Frédéric Bertrand\cr \email{frederic.bertrand@@utt.fr}\cr
+#' @author Frédéric Bertrand\cr \email{frederic.bertrand@@lecnam.net}\cr
 #' \url{https://fbertran.github.io/homepage/}\cr 
 #' Maumy-Bertrand\cr \email{myriam.maumy@@utt.fr}\cr
 #' \url{https://www.ehesp.fr/annuaire/enseignement-recherche/myriam-maumy/}
