@@ -1,6 +1,6 @@
-40b4a306aa5f6d4c4999c35feaa53600 *DESCRIPTION
+12b3ceb9e11e2cae43003f6e76c1bf01 *DESCRIPTION
 12679d58f009d2f3448128c0f1786d16 *NAMESPACE
-7fdc6b0cca2782d2ddee23adf467ee13 *NEWS.md
+8cf5769d508894c0acb4f5d05bc2e327 *NEWS.md
 e4ded80acf7dfa7ab68ab763372476a7 *R/BioStatR-package.R
 a6285de546eeb65384e34ff77dd8cd2b *R/binom.ci.R
 ac5379b4c630ca6b16f9b64fc1e9098a *R/cvar.R
@@ -42,12 +42,12 @@ fb737607f07a042731661a4f19f04403 *man/panel.hist.Rd
 ddd9f93e740961365a1e9c99401d122c *man/plotcdf2.Rd
 86f0d12323a62e2c3b97c894038e9fbd *man/poi.ci.Rd
 6d64336d848530c54869b10e56fc0eae *tests/testthat.R
-a8399cb5a20fa95524780f508bb1273f *tests/testthat/Rplots.pdf
+88da8d257c672f96bfd201002f6889c3 *tests/testthat/Rplots.pdf
 f9dc9eed8678e47f93c3f3d72cc033bd *tests/testthat/_snaps/gg_qqplot_vdiffr/gg-qqplot-default.svg
 f10d651929b93305c7db1fda07f99e56 *tests/testthat/_snaps/gg_qqplot_vdiffr/gg-qqplot-with-line.svg
 b4fd2c32a768fadd93362a490829af1b *tests/testthat/_snaps/panel_hist_vdiffr/panel-hist-in-pairs.svg
 10b61ab41e8b4e97e61866e81c805535 *tests/testthat/test_binom_ci.R
-a2e9d1fa0a38c2440a390a994469962a *tests/testthat/test_binom_ci_values.R
+79ba08db22a3f8a4baf92f37a0d81270 *tests/testthat/test_binom_ci_values.R
 44332d5b069748abbe70b4b1dc0734eb *tests/testthat/test_cvar.R
 a019e7b5c9dec2c5fa7686a0f9cd1223 *tests/testthat/test_cvar_edge.R
 cfa14d2445fef81731caff1119fd8150 *tests/testthat/test_datasets.R
